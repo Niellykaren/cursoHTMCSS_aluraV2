@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+        <title>Contato - Barbearia Alura</title>
+</head>
+<body>
+    <header>
+        <h1><img src="/img/logo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/produtos.html">Produtos</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <form action="Contato">
+            <label for="nomeesobrenome">Nome Completo</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao">
+            
+            <label for="email"class="input-padrao">E-mail</label>
+            <input type="text" id="telefone"class="input-padrao">
+            
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone"class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="email"><input type="radio" name="contato" value="email">E-mail</label>
+                
+
+                <label for="telefone"><input type="radio" name="contato" value="telefone">Telefone</label>
+                
+
+                <label for="whatsapp"><input type="radio" name="contato" value="whatsapp">WhatsApp</label>
+                
+
+            </div>
+            <label class="checkbox" for="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+            <input type="submit" value="Enviar Formulário">
+        </form>
+        
+    </main>
+    <footer>
+        <img src="/img/logo-branco.png" alt="">
+        <p class="copyright">&copy; Barbearia Alura - 2020</p>
+    </footer>
+</body>
+</html>
