@@ -2,7 +2,11 @@ header{
     background: #bbbbbb;
     padding:  20px 0;
 }
-
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
 nav{
 position: absolute;
 top: 110px;
@@ -36,7 +40,7 @@ form{
     margin: 40px 0;
     
 }
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -61,4 +65,37 @@ footer{
 }
 .checkbox{
     margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+
+}
+
+table{
+    margin: 20px 0 40px;
+
+}
+
+thead{
+    background: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
